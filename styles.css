@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Barlow:ital,wght@1,100&family=Bungee&family=Concert+One&family=Courgette&family=Inspiration&family=Montserrat:wght@400;600;900&family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:wght@300&family=PT+Serif:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
 :root {
     --background: #252525;
     --text-white: #f6f4f3;
     --yellow-cheese: #ffa600;
     --yellow-cheese-off: #a26900;
     --red-salse: #fc2933;
+    --ltr-btn: linear-gradient(to left, #ffa100, #fb103d);
+    --secondary: #272d37;
 }
 
 * {
@@ -12,6 +16,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    background: var(--background);
 }
 
 #navbar {
@@ -69,3 +74,61 @@ footer {
     justify-content: center;
     gap: 20px;
 }
+
+
+
+
+/*SECCION CATEGORIA ivan*/
+#categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
+  
+  .tit {
+  width: 80%;
+  padding: 10px;
+  
+  }
+  
+  .tit h5 {
+  padding: 10px ;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 13px;
+  color: var(--text-white);
+  }
+  
+  .cat {
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  gap: 40px;
+  }
+  
+  .category{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  padding: 10px 15px;
+  border: none;
+  color: var(--text-white);
+  cursor: pointer;
+  gap: 10px;
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+  
+  }
+  
+  .piz-barr, .hamb-barr, .pap-barr, .ind-barr, .burr-barr, .tac-barr, .bat-barr {
+  width: 25px;
+  height: 4px;  
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+  border-radius: 15px;
+  }
