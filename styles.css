@@ -69,3 +69,63 @@ footer {
     justify-content: center;
     gap: 20px;
 }
+
+/*section populares*/
+
+h2{
+  color: var(--text-white);
+  padding: 20px 40px;
+}
+
+#populares{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.product-bot{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.product-container{
+  background: var(--background);
+  border-radius: 15px;
+  padding: 20px 20px;
+}
+
+.product-top h3{
+  font-size: 18px;
+  font-weight: 100;
+  color: var(--text-white);
+}
+
+.product-top p{
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+}
+
+.product-mid span{
+  background: linear-gradient(to left, #ffa100, #fb103d);
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.product-bot button{
+  background: linear-gradient(to left, #ffa100, #fb103d);
+  border: none;
+  border-radius: 12px;
+  padding: 4px 12px;
+  color: var(--text-white);
+}
