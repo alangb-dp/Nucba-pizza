@@ -2,5 +2,5 @@
 Integrantes
 Facundo Araya
 Juan Paredes
-Ivan
+Ivan Ibañez
 Alan Arias
